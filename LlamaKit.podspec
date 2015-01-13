@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.10"
   s.source       = { :git => "https://github.com/LlamaKit/LlamaKit.git", :commit => "17d7b755876c4450561fd24de175fdf31158849b" }
   s.source_files  = "LlamaKit/*.swift"
+  s.requires_arc = true
 end
