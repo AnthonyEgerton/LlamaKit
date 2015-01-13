@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/cocoaphony"
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
-  s.source       = { :git => "https://github.com/LlamaKit/LlamaKit.git", :tag => "v0.1.1" }
+  s.source       = { :git => "https://github.com/LlamaKit/LlamaKit.git", :commit => "17d7b755876c4450561fd24de175fdf31158849b" }
   s.source_files  = "LlamaKit/*.swift"
 end
